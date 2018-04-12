@@ -1,0 +1,35 @@
+
+
+
+/******************  Tooltip     **********/
+/*   https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip    */
+
+.tooltipzota {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; If you want dots under the hoverable text
+}
+
+/* Tooltip text */
+.tooltipzota .tooltiptextzota {
+    visibility: hidden;
+    width: 300px;
+	max-height: 300px;
+	overflow: auto;	
+    background-color:  #c9c9c9;
+    text-align: left;
+    padding: 5px;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+	left:0px;
+	top:15px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltipzota:hover .tooltiptextzota {
+    visibility: visible;
+}
+
