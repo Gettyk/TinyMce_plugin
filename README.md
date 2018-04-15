@@ -1,4 +1,4 @@
-# Zotero_tooltip
+# TinyMCE plugin
 
 This TinyMCE plugin can be used in Zotero to add these features:
 
